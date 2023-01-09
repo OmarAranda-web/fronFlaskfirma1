@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+canvas{
+    background-color: white;
+}
+
+.btn-send{
+    width: 150px;
+    padding: 0.5rem;
+    background-color: green;
+    margin-top: 1rem;
+}
+
+.form-enviar{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.formulario{
+    display: none;
+}
+.comparar-firma{
+    display: none;
+}
+
+.msg-coincide{
+    display: none;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: green;
+    color: white;
+}
+
+.msg-noCoincide{
+    display: none;
+    width: 200px;
+    margin-top: 1rem;
+    text-align: center;
+    height: 100px;
+    background-color: red;
+    color: white;
+
+}
+.form-comp-firma{
+    display: none;
+}
